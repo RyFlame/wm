@@ -12,7 +12,7 @@ public class Spiel
     public ArrayList<Mannschaft>fuerspiel;
     public Spiel (String ort,double datum)
     {
-        ArrayList<Mannschaft>fuerspiel = new ArrayList<Mannschaft>();
+        fuerspiel = new ArrayList<Mannschaft>();
         this.ort = ort;
         this.datum = datum;
     }
