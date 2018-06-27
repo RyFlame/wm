@@ -7,15 +7,19 @@ public class Spiel
     private int gasttore;
     private String ort;
     private double datum;
-    private String heimmannschaft;
-    private String gastmannschaft;
-    
-    public Spiel(String heimmannschaft,String gastmannschaft,String ort,double datum)
+    private Mannschaft heimmannschaft;
+    private Mannschaft gastmannschaft;
+    public ArrayList<Mannschaft>fuerspiel;
+    public Spiel (String ort,double datum)
     {
-        this.heimmannschaft = heimmannschaft;
-        this.gastmannschaft = gastmannschaft;
+        ArrayList<Mannschaft>fuerspiel = new ArrayList<Mannschaft>();
         this.ort = ort;
         this.datum = datum;
+    }
+    public void setzemannschaften(Mannschaft heimmannschaft,Mannschaft gastmannschaft)
+    {
+        fuerspiel.add(heimmannschaft);
+        fuerspiel.add(gastmannschaft);
     }
     public int gibheimtore()
     {
@@ -33,11 +37,11 @@ public class Spiel
     {
         return datum;
     }
-    public String gibheimmannschaft()
+    public Mannschaft gibheimmannschaft()
     {
         return heimmannschaft;
     }
-    public String gibgastmannschaft()
+    public Mannschaft gibgastmannschaft()
     {
         return gastmannschaft;
     }
