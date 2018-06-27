@@ -18,3 +18,4 @@ public class Spiel
         this.datum = datum;
     }
 }
+  
