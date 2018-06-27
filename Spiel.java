@@ -39,7 +39,6 @@ public class Spiel
     }
     public String gibgastmannschaft()
     {
-        //i
         return gastmannschaft;
     }
 }
