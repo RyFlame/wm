@@ -4,11 +4,12 @@ public class Mannschaft
 {
     private String nameDerMannschaft;
     private ArrayList <Mannschaft> spieler; 
-    
-    public Mannschaft(String nameDerMannschaft)
+    private String coach;
+    public Mannschaft(String nameDerMannschaft, String coach)
     {
         this.nameDerMannschaft = nameDerMannschaft;
         ArrayList<Mannschaft>spieler = new ArrayList<Mannschaft>();
+        this.coach = coach;
     }
     public String gibNameDerMannschaft()
     {
@@ -18,5 +19,8 @@ public class Mannschaft
     {
         spieler.add(nameDesSpielers);
     }
-    
+    public String gibCoach()
+    {
+        return coach;
+    }
 }
