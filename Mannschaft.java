@@ -10,6 +10,13 @@ public class Mannschaft
         this.nameDerMannschaft = nameDerMannschaft;
         ArrayList<Mannschaft>spieler = new ArrayList<Mannschaft>();
     }
-    
+    public String gibNameDerMannschaft()
+    {
+        return nameDerMannschaft;
+    }
+    public void spielerHinzufügen(Mannschaft nameDesSpielers)
+    {
+        spieler.add(nameDesSpielers);
+    }
     
 }
