@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//lol
 public class Mannschaft
 {
     private String nameDerMannschaft;
