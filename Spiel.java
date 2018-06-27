@@ -17,5 +17,30 @@ public class Spiel
         this.ort = ort;
         this.datum = datum;
     }
+    public int gibheimtore()
+    {
+        return heimtore;
+    }
+    public int gibgasttore()
+    {
+        return gasttore;
+    }
+    public String gibort()
+    {
+        return ort;
+    }
+    public double gibdatum()
+    {
+        return datum;
+    }
+    public String gibheimmannschaft()
+    {
+        return heimmannschaft;
+    }
+    public String gibgastmannschaft()
+    {
+        //i
+        return gastmannschaft;
+    }
 }
   
