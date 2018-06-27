@@ -8,7 +8,7 @@ public class Mannschaft
     public Mannschaft(String nameDerMannschaft, String coach)
     {
         this.nameDerMannschaft = nameDerMannschaft;
-        ArrayList<Mannschaft>spieler = new ArrayList<Mannschaft>();
+        spieler = new ArrayList<Mannschaft>();
         this.coach = coach;
     }
     public String gibNameDerMannschaft()
