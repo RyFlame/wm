@@ -62,12 +62,12 @@ public class GruppeTest
         gruppe1.gibSpiele();
         gruppe1.mannschafthinzufuegen(mannscha1);
         gruppe1.mannschafthinzufuegen(mannscha2);
-        spiel1 = new Spiel("Schweden", 16.07, mannscha3, mannscha4, "ja");
-        spiel2 = new Spiel("Schweden", 16.07, mannscha3, mannscha1, "ja");
-        spiel3 = new Spiel("Schweden", 16.07, mannscha3, mannscha2, "nein");
-        spiel4 = new Spiel("löwenerschlägägenderkrasserjäger", 16.07, mannscha4, mannscha1, "ja");
-        spiel5 = new Spiel("Schweden", 16.07, mannscha4, mannscha2, "ja");
-        spiel6 = new Spiel("Schweden", 16.07, mannscha2, mannscha1, "nein");
+        spiel1 = new Spiel("Schweden", 16.07, mannscha3, mannscha4, true);
+        spiel2 = new Spiel("Schweden", 16.07, mannscha3, mannscha1, true);
+        spiel3 = new Spiel("Schweden", 16.07, mannscha3, mannscha2, true);
+        spiel4 = new Spiel("löwenerschlägägenderkrasserjäger", 16.07, mannscha4, mannscha1, true);
+        spiel5 = new Spiel("Schweden", 16.07, mannscha4, mannscha2, true);
+        spiel6 = new Spiel("Schweden", 16.07, mannscha2, mannscha1, true);
     }
 
     /**
