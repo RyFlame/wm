@@ -17,7 +17,7 @@ public class Spiel
         this.datum = datum;
         this.gespielt = gespielt;
     }
-    public void setzetoreheim(int anzahl)
+    public void setzeToreHeim(int anzahl)
     {
         if(gespielt == false)
         {
@@ -29,7 +29,7 @@ public class Spiel
         }
 
     }
-    public void setzetoregast(int anzahl)
+    public void setzeToreGast(int anzahl)
     {
         if(gespielt == false)
         {
@@ -41,23 +41,23 @@ public class Spiel
         }
 
     }
-    public int gibheimtore()
+    public int gibHeimtore()
     {
         return heimtore;
     }
-    public int gibgasttore()
+    public int gibGasttore()
     {
         return gasttore;
     }
-    public String gibort()
+    public String gibOrt()
     {
         return ort;
     }
-    public double gibdatum()
+    public double gibDatum()
     {
         return datum;
     }
-    public Mannschaft gibheimmannschaft()
+    public Mannschaft gibHeimmannschaft()
     {
         return heimmannschaft;
     }
